@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/chithranjali/public_html/test.chithranjali.net/test
+    - /bin/cp * $DEPLOYPATH
